@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+ruby '2.5.0'
+gem 'rails', '~> 5.2.0.beta2'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
@@ -8,6 +9,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'bootsnap', require: false
 
 group :development, :test do
   gem 'sqlite3'
